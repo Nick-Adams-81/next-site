@@ -10,12 +10,15 @@ const Footer = () => (
         <style jsx>
             {`
         footer {
-            background: blue;
+            background: black;
             height: 60px;
         }
        #footer {
            
            padding-top: 16px;
+       }
+       a {
+           color: #006400
        }
       
             `}
