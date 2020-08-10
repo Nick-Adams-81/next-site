@@ -26,6 +26,10 @@ const Navbar = () => (
             width: 100%;
             top: 0;
             z-index: 1;
+            
+        }
+        a {
+            color: #006400;
         }
         `}</style>
     </div>
