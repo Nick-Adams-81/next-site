@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
-import Button from 'react-bootstrap/Button'
+import Links from '../components/Links';
+import DogPics from '../components/DogPics/DogPics';
 
 const Index = () => (
     <Layout>
@@ -7,34 +8,34 @@ const Index = () => (
         <div>
             <div class="container">
                 <div class="row">
-                    <div class="col"></div>
+                    <div class="col">
+                        <DogPics />
+                    </div>
+                   
                    
                     <div class="col">
                         <br />
                         <p>I am a software developer based out of Sacramento, CA, I specialize in MERN
-                        stack technologies.
+                        stack technologies. I'm also familiar with vue.js and next.js. My contact info 
+                        is all on this page, feel free to contact me if interested in my work!
                         </p>
                     </div>
+                   
 
                     <div class="col">
-                        <img src="https://image.flaticon.com/icons/svg/25/25231.svg"
-                            height="180"
-                            width="180px" />
-                           <br />
-                           <br />
-                           <div id="btn-1">
-                           <Button variant="primary" href="https://github.com/thebigdeal916">GitHub</Button>
-                           </div>
-                        
-                        
+                        <Links />
                     </div>
                 </div>
             </div>
             <style jsx>
                 {`
-                
+                  p {
+                      font-size: 25px;
+                  }
+
                `}
             </style>
+            
         </div>
     </Layout>
 

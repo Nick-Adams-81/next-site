@@ -40,7 +40,7 @@ const Jumbotron = () => (
 
     <Carousel.Caption>
       <h3 id="cap-3">Located in the greater Sacramento area</h3>
-      <p>nicholasadams916@gmail.com</p>
+      <p className="email">nicholasadams916@gmail.com</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -49,19 +49,23 @@ const Jumbotron = () => (
         h3 {
             text-align: center;
             color: whitesmoke;
+            font-size: 40px;
             
         }  
         p {
             color: white;
-            margin-bottom: 65px
+            margin-bottom: 65px;
+            font-size: 25px;
+            
         } 
         #cap-2 {
             color: white;
            
         }
         #cap-3 {
-            color: black;
+            font-size: 40px;
         }
+       
         `}
 
         </style>
