@@ -1,36 +1,39 @@
 import Layout from '../components/Layout';
 import Links from '../components/Links';
 import DogPics from '../components/DogPics/DogPics';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Index = () => (
     <Layout>
         <br />
         <div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
+            <Container>
+                <Row>
+                    <Col>
                         <DogPics />
-                    </div>
+                    </Col>
                    
                    
-                    <div class="col">
+                    <Col>
                         <br />
                         <p>I am a software developer based out of Sacramento, CA, I specialize in MERN
                         stack technologies. I'm also familiar with vue.js and next.js. My contact info 
                         is all on this page, feel free to contact me if interested in my work!
                         </p>
-                    </div>
+                    </Col>
                    
 
-                    <div class="col">
+                    <Col>
                         <Links />
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
             <style jsx>
                 {`
                   p {
-                      font-size: 25px;
+                      font-size: 20px;
                   }
 
                `}

@@ -1,4 +1,4 @@
-import Head from 'next/head';
+
 import Carousel from 'react-bootstrap/Carousel'
 
 const Jumbotron = () => (
