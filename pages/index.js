@@ -23,7 +23,7 @@ const Index = () => (
                         is all on this page, feel free to contact me if interested in my work!
                         </p>
                     </Col>
-                   
+                  
 
                     <Col>
                         <Links />
