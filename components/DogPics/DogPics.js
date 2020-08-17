@@ -2,7 +2,8 @@
 
 const DogPics = () => (
     <>
-        <img src="./styx.jpg" alt="this mutt" />
+       <img src="styx.jpg"
+        height="200" />
         <h4>Email:</h4>
         <p>nicholasadams916@gmail.com</p>
         <br />

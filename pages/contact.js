@@ -7,7 +7,12 @@ import Col from 'react-bootstrap/Col';
 class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { value: '' };
+        this.state = {
+            name: '',
+            phone: '',
+            email: '',
+            comments: ''
+        };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -31,22 +36,22 @@ class Contact extends React.Component {
                         <Col>
                             <form onSubmit={this.handleSubmit} id="form">
                                 <label>
-                                    Name:
-                                <input type="text" id="input-1" value={this.state.value} onChange={this.handleChange} />
-                                </label>
-                                <br />
-                                <label>
-                                    Phone:
-                                <input type="text" id="input-2" value={this.state.value} onChange={this.handleChange} />
-                                </label>
-                                <br />
-                                <label>
-                                    Email:
-                                <input type="text" id="input-3" value={this.state.value} onChange={this.handleChange} />
-                                </label>
-                                <br />
 
-                                <input type="submit" value="Submit" id="btn"/>
+                                    <input type="text" id="input-1" placeholder="Name" name={this.state.value} onChange={this.handleChange} />
+                                </label>
+                                <br />
+                                <label>
+
+                                    <input type="text" id="input-2" placeholder="Phone Number" phone={this.state.value} onChange={this.handleChange} />
+                                </label>
+                                <br />
+                                <label>
+                                    <input type="text" id="input-3" placeholder="Email" email={this.state.value} onChange={this.handleChange} />
+                                </label>
+                                <br />
+                                    <input type="text" id="comments" placeholder="Comments" comments={this.state.value} onChange={this.handleChange} />
+                                <br />
+                                    <input type="submit" value="Submit" id="btn" />
                             </form>
                         </Col>
                     </Row>
@@ -57,20 +62,25 @@ class Contact extends React.Component {
                             flex-direction: column;
                         }
                         #input-1 {
-                            margin-left: 30%;
+                            margin-left: 35%;
                             width: 33%;
                         }
                         #input-2 {
-                            margin-left: 30%;
+                            margin-left: 35%;
                             width: 33%;
                         }
                         #input-3 {
-                            margin-left: 30%;
+                            margin-left: 35%;
                             width: 33%;
                         }
                         #btn {
                             margin-left: 42%;
                             width: 20%;
+                        }
+                        #comments {
+                            height: 200px;
+                            width: 40%;
+                            margin-left: 32%
                         }
 
 
