@@ -33,7 +33,7 @@ const Index = () => (
             <style jsx>
                 {`
                   p {
-                      font-size: 20px;
+                      font-size: 23px;
                   }
 
                `}

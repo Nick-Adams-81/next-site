@@ -12,9 +12,14 @@ const Footer = () => (
             {`
         footer {
             background: black;
+            
+            bottom: 0;
+            width: 100%
+            z-index: 1;
         }
        #footer {
            padding-top: 16px;
+           width: 100%
        }
        a {
            color: #006400

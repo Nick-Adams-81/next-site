@@ -11,9 +11,9 @@ const Links = () => (
             <Button variant="primary" href="https://github.com/thebigdeal916" id="btn-1">GitHub</Button>
         </div>
         <br />
-        <img src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"
-            height="170"
-            width="170px" />
+        <img src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png"
+            height="180"
+            width="180px" />
         <br />
         <br />
         <div id="btn-1">

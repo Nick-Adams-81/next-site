@@ -10,15 +10,14 @@ const Layout = (props) => (
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/spacelab/bootstrap.min.css" />
         </Head>
         <div className="body">
-         
             <div className="container">
-                
                 <Jumbotron />
                 {props.children}
             </div>
             <br />
             <Navbar />
             <Footer />
+           
         </div>
 <style jsx>{`
   .body {
