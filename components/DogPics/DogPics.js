@@ -2,7 +2,7 @@
 
 const DogPics = () => (
     <>
-        
+        < img src="" />
         <h4>Email:</h4>
         <p id="email">nicholasadams916@gmail.com</p>
         <br />
