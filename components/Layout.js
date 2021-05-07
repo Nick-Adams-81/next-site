@@ -17,9 +17,8 @@ const Layout = (props) => (
             <br />
             <Navbar />
             <Footer />
-           
         </div>
-<style jsx>{`
+        <style jsx>{`
   .body {
       background-image: url('https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
       width: 100%;

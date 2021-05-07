@@ -11,21 +11,19 @@ const Index = () => (
         <div>
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={12} lg={4}>
                         <DogPics />
                     </Col>
-                   
-                   
-                    <Col>
+
+                    <Col md={12} lg={4}>
                         <br />
-                        <p>I am a software developer based out of Sacramento, CA, I specialize in MERN
-                        stack technologies. I'm also familiar with vue.js and next.js. My contact info 
+                        <p>I am a software developer based out of Dallas, TX. I specialize in MERN
+                        stack technologies but am familiar with Python, Java, and C#. My contact info 
                         is all on this page, feel free to contact me if interested in my work!
                         </p>
                     </Col>
-                  
-
-                    <Col>
+        
+                    <Col md={12} lg={4}>
                         <Links />
                     </Col>
                 </Row>

@@ -39,7 +39,7 @@ const Jumbotron = () => (
         />
 
         <Carousel.Caption>
-          <h3 id="cap-3">Located in the greater Sacramento area</h3>
+          <h3 id="cap-3">Located in the greater Dallas area</h3>
           <p className="email">nicholasadams916@gmail.com</p>
         </Carousel.Caption>
       </Carousel.Item>

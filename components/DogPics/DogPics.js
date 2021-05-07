@@ -2,11 +2,11 @@
 
 const DogPics = () => (
     <>
-        < img src="" />
-        <h4>Email:</h4>
-        <p id="email">nicholasadams916@gmail.com</p>
+        <img src="/styx.jpg" />
+        <h3>Email:</h3>
+        <h6 id="email">nicholasadams916@gmail.com</h6>
         <br />
-        <h4>Phone:</h4>
+        <h3>Phone:</h3>
         <p>(916)996-1799</p>
 
         <style jsx>
